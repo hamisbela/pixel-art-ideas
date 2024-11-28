@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create stunning pixel art with our free AI Pixel Art Generator. Transform your ideas into beautiful 8-bit and 16-bit style artwork instantly. The best free tool for game developers, artists, and retro art enthusiasts. No sign-up required!">
+    <meta name="keywords" content="free ai pixel art generator, pixel art generator, ai pixel art, 8-bit art generator, retro game art, pixel art maker">
+    <title>Free AI Pixel Art Generator | Create Retro 8-bit Art Instantly | No Sign-up Required</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/" class="nav-logo">Free AI Pixel Art Generator</a>
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About Us</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://roihacks.gumroad.com/coffee" target="_blank" class="coffee-nav-button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
+                    <path d="M4 11h12v3c0 1.657-1.343 3-3 3h-6c-1.657 0-3-1.343-3-3v-3zm14-2h-16v-1c0-1.105 0.895-2 2-2h12c1.105 0 2 0.895 2 2v1zm-3.333-3h-9.334c0-2.761 2.239-5 5-5s5 2.239 5 5z"/>
+                </svg>
+                Buy Us A Coffee
+            </a>
+        </div>
+    </nav>
+
+    <div id="app">
+        <main class="container">
+            <div class="hero-section">
+                <h1>Free AI Pixel Art Generator</h1>
+                <p class="subtitle">Create beautiful pixel art instantly with artificial intelligence - No sign-up required!</p>
+            </div>
+            
+            <div class="generator-card">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="logoPrompt" 
+                        placeholder="Describe your pixel art idea (e.g., 'cute pixel art cat playing with yarn in a retro style room')"
+                    >
+                </div>
+                <button id="generateBtn">Generate Free Pixel Art</button>
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <span>Creating your pixel art...</span>
+                </div>
+                <div class="result-container">
+                    <div class="logo-preview">
+                        <img id="image" alt="Generated pixel art" />
+                    </div>
+                    <div class="button-group" id="actionButtons">
+                        <button id="downloadBtn" class="secondary-button">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
+                            </svg>
+                            Download Pixel Art
+                        </button>
+                        <a href="https://roihacks.gumroad.com/coffee" target="_blank" class="secondary-button coffee-button">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M4 11h12v3c0 1.657-1.343 3-3 3h-6c-1.657 0-3-1.343-3-3v-3zm14-2h-16v-1c0-1.105 0.895-2 2-2h12c1.105 0 2 0.895 2 2v1zm-3.333-3h-9.334c0-2.761 2.239-5 5-5s5 2.239 5 5z"/>
+                            </svg>
+                            Buy Us a Coffee
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Why Choose Our Free AI Pixel Art Generator?</h2>
+                <p>Experience the power of artificial intelligence in creating stunning pixel art! Our free AI pixel art generator helps you create professional-quality retro artwork in seconds. Whether you're a game developer, digital artist, or pixel art enthusiast, our tool is designed to bring your creative visions to life.</p>
+                
+                <ul>
+                    <li>✨ 100% Free to Use</li>
+                    <li>🎮 Perfect for Game Development</li>
+                    <li>🎨 High-Quality Pixel Art Output</li>
+                    <li>⚡ Instant Generation</li>
+                    <li>📥 Free Downloads</li>
+                    <li>🔒 No Sign-up Required</li>
+                </ul>
+
+                <h2>How to Use Our Free AI Pixel Art Generator</h2>
+                <ol>
+                    <li>Enter your pixel art concept in the text box above</li>
+                    <li>Include details about style, colors, and scene composition</li>
+                    <li>Click "Generate Free Pixel Art"</li>
+                    <li>Download your AI-generated pixel artwork instantly</li>
+                </ol>
+
+                <h2>Create Amazing Pixel Art for Free</h2>
+                <p>Our AI pixel art generator is perfect for creating:</p>
+                <div class="use-cases-grid">
+                    <div class="use-case">
+                        <h3>Game Development Assets</h3>
+                        <ul>
+                            <li>Character Sprites</li>
+                            <li>Game Backgrounds</li>
+                            <li>Item Icons</li>
+                            <li>UI Elements</li>
+                            <li>Environmental Assets</li>
+                        </ul>
+                    </div>
+                    <div class="use-case">
+                        <h3>Retro Art Styles</h3>
+                        <ul>
+                            <li>8-bit Style Art</li>
+                            <li>16-bit Style Art</li>
+                            <li>Classic Console Look</li>
+                            <li>Retro Gaming Aesthetic</li>
+                            <li>Vintage Pixel Graphics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Tips for Better Pixel Art Generation</h2>
+                <p>Get the most out of our free AI pixel art generator with these tips:</p>
+                <ul>
+                    <li>Be specific about art style (8-bit, 16-bit, etc.)</li>
+                    <li>Mention desired color palettes</li>
+                    <li>Include scene composition details</li>
+                    <li>Reference specific game styles if desired</li>
+                    <li>Specify character or object details</li>
+                </ul>
+
+                <h2>Popular Pixel Art Categories</h2>
+                <div class="categories-grid">
+                    <div class="category">
+                        <h3>Characters</h3>
+                        <ul>
+                            <li>Heroes & Protagonists</li>
+                            <li>Fantasy Characters</li>
+                            <li>Sci-fi Characters</li>
+                            <li>Animals & Creatures</li>
+                            <li>NPCs & Enemies</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Environments</h3>
+                        <ul>
+                            <li>Fantasy Landscapes</li>
+                            <li>Sci-fi Scenes</li>
+                            <li>Urban Settings</li>
+                            <li>Natural Environments</li>
+                            <li>Interior Scenes</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Game Elements</h3>
+                        <ul>
+                            <li>Power-ups & Items</li>
+                            <li>Weapons & Tools</li>
+                            <li>UI Components</li>
+                            <li>Menu Elements</li>
+                            <li>Game Icons</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Free AI Pixel Art Generator Features</h2>
+                <ul>
+                    <li>Instant artwork generation</li>
+                    <li>High-resolution outputs</li>
+                    <li>Multiple art styles</li>
+                    <li>Commercial usage rights</li>
+                    <li>No watermarks</li>
+                    <li>Unlimited generations</li>
+                    <li>Free downloads</li>
+                    <li>No registration needed</li>
+                </ul>
+            </div>
+
+            <div class="support-section">
+                <h2>Love Our Free AI Pixel Art Generator? Support Us! ❤️</h2>
+                <p>Help us maintain and improve our free AI pixel art generator by supporting our API & hosting costs. Your contribution helps keep this tool free for everyone!</p>
+                <a href="https://roihacks.gumroad.com/coffee" target="_blank" class="coffee-button-large">
+                    <svg width="24" height="24" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M4 11h12v3c0 1.657-1.343 3-3 3h-6c-1.657 0-3-1.343-3-3v-3zm14-2h-16v-1c0-1.105 0.895-2 2-2h12c1.105 0 2 0.895 2 2v1zm-3.333-3h-9.334c0-2.761 2.239-5 5-5s5 2.239 5 5z"/>
+                    </svg>
+                    Buy Us a Coffee ☕️
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="https://roihacks.gumroad.com/coffee">Support Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#how-to-use">How to Use</a></li>
+                        <li><a href="#best-practices">Best Practices</a></li>
+                        <li><a href="#pixel-art-styles">Pixel Art Styles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2024 PixelArtIdeas.com. All rights reserved.
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
